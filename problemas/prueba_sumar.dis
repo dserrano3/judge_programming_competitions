@@ -1,0 +1,7 @@
+leer a;
+leer b;
+leer c;
+leer d;
+
+println a+b;
+println c*d;

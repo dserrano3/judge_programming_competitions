@@ -1,0 +1,146 @@
+.call-to-action {
+  font-size:20px;
+  color: #426E8A;
+}
+
+.judge-header {
+    font-family: papyrus;
+    color: #fff;
+    font-size: 21px;
+    padding: 5px 15px;
+    text-align: center;
+    background-color:#3FCA76;
+}
+
+ul {
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+   float:left;
+   overflow:hidden;
+}
+
+html {
+overflow: -moz-scrollbars-vertical;
+overflow-y: scroll;
+}
+
+/* tab color */
+.nav-pills>li>a {
+  color: #fff;
+  background-color: #3FCA76;
+}
+
+/* active tab color */
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #299B56;
+}
+
+/* hover tab color */
+.nav-pills>li>a:hover {
+  background-color: #309B29;
+}
+
+.icon-blacktocat {
+  background-image: url("../images/blacktocat.png");
+  background-position: center center;
+  height: 14px;
+  width: 14px;
+}
+
+.panel-heading div {
+	margin-top: -18px;
+	font-size: 15px;
+}
+.panel-heading div span{
+	margin-left:5px;
+}
+
+.panel-heading {
+    border: none;
+    background-color: #eee;
+}
+
+.side-tab:hover {
+        cursor: pointer;
+}
+
+.panel.panel-default {
+    border: 1px solid #DDD;
+    box-shadow: none !important;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+
+.panel-body {
+    background-color: #f5f5f5;
+}
+
+.panel-title{
+  color: #426E8A;
+}
+
+.panel-sub{
+  color: #DB8321;
+  font-size: 12px;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(213, 214, 216, 1);
+  border-radius: 10px;
+  height: 25px;
+}
+
+.progress-bar-custom {
+  background: rgba(219, 131, 33, 1);
+}
+
+.panel-custom {
+
+  border: 1px solid #DDD;
+  box-shadow: none !important;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #f5f5f5;
+
+}
+
+
+.panel-custom > .panel-heading {
+
+  border: none;
+  background-color: #eee;
+}
+
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  background: #EEE;
+}
+
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+input[readonly] {
+
+  background-color: white !important;
+  cursor: text !important;
+}
